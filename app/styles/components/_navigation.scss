@@ -1,26 +1,19 @@
-// Navigiation Styles
+.top-bar, .top-bar ul {
+  background-color: $nav-background;
+}
 
 .top-bar {
-  background-color: $nav-background;
-
   .menu-text {
     color: $nav-text-color;
   }
 
-  .menu {
-    a {
-      line-height: 1;
-      text-decoration: none;
-      display: inline !important;
-      padding: .7rem 1rem;
-    }
+  .menu > .menu-text > a {
+    display: inline;
+    padding: 0;
   }
 
-  ul {
-    background-color: $nav-background;
+  .active-link {
+    font-weight: bold;
+    color: #fff;
   }
-}
-
-p {
-  color: $grey-text;
 }
