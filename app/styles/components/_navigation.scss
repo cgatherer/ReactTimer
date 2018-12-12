@@ -1,0 +1,22 @@
+// Navigiation Styles
+
+.top-bar {
+  background-color: $nav-background;
+
+  .menu-text {
+    color: $nav-text-color;
+  }
+
+  .menu {
+    a {
+      line-height: 1;
+      text-decoration: none;
+      display: inline !important;
+      padding: .7rem 1rem;
+    }
+  }
+
+  ul {
+    background-color: $nav-background;
+  }
+}
